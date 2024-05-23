@@ -8,6 +8,7 @@
 ## Описание готовых файлов
 
 _Фронт_
+
 **form_dod.blade.php** - шаблон HTML формы регистрации на ДОД (resources/views/form_dod.blade.php)
 
 **form.blade.php** - шаблон HTML шапки и футера для формы регистрации на ДОД (resources/views/layouts/form.blade.php)
@@ -19,6 +20,7 @@ _Фронт_
 **main.css** - стили для шапки и футера на страницах и главного контента (resources/css/main.css)
 
 _Бек_
+
 **AnswersDodController.php** - контроллер для обработки ответов из формы и записи их в БД (app/Http/Controller/AnswersDodController.php)
 
 **AnswersDod.php** - модель для взаимодоействия с бд ответов из формы (app/Models/AnswersDod.php)
