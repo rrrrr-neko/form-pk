@@ -12,27 +12,27 @@ class IndexController extends Controller
     }
 
     public function view_form_dod(){
-        return view('index');
+        return view('form_dod');
     }
 
     public function edit_question_dod(){
-        return view('index');
+        return view('edit_dod');
     }
 
     public function view_answer_dod(){
-        return view('index');
+        return view('answer_dod');
     }
 
     public function view_form_excursion(){
-        return view('index');
+        return view('form_excursion');
     }
 
     public function edit_question_excursion(){
-        return view('index');
+        return view('edit_excursion');
     }
 
     public function view_answer_excursion(){
-        return view('index');
+        return view('answer_excursion');
     }
 
 
